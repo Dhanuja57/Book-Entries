@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>BOOKSKEY</h1>
+    </div>
+   <div class="container">
+     <div class="container-book">
+        <h2>Rich son and poor son</h2>
+    <h4>Robert Seoul</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit porro voluptas explicabo, repellat iste ipsa aspernatur ea expedita repellendus? Vitae, voluptatum laboriosam. Asperiores quae libero at numquam dolore dolorem cum tempore qui blanditiis, commodi maiores. A, blanditiis consectetur sunt ut nulla excepturi laboriosam asperiores facilis consequatur quia magni perferendis quibusdam.</p>
+    <button class="button" onclick="cancelbook(event)">Delete</button>
+     </div>
+   </div>
+   <div class="popup-overley"></div>
+
+   <div class="popup-box">
+    <h2>ADD BOOK</h2>
+    <form>
+        <input type="text" placeholder="BOOK TITLE :" id="booktitle">
+        <input type="text" placeholder="AUTHOR NAME :" id="authorname">
+        <textarea placeholder="SHORT DESCRIBTION...... " id="bookdes"></textarea>
+        <button id="addbook">ADD</button>
+        <button  id="Deletebook">DELETE</button>
+    </form>
+   </div>
+
+
+   <button class="but" id="add-button">+</button>
+
+
+
+
+
+    <script src="books.js"></script>
+</body>
+</html>
